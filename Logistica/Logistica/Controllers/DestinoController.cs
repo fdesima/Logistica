@@ -13,7 +13,7 @@ namespace Logistica.Controllers
         {
             return View("Destino");
         }
-        //FACUNDO GAY!
+        //89898989898
         public ActionResult Index()
         {
             return View();
