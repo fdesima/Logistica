@@ -13,12 +13,12 @@ namespace Logistica.Controllers
         {
             return View("Destino");
         }
-        //PRUEBA!! que lo pario!!
+
         public ActionResult Index()
         {
             return View();
         }
-
+          
         // GET: Destino/Details/5
         public ActionResult Details(int id)
         {
