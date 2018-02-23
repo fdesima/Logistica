@@ -52,7 +52,7 @@ namespace Logistica.Controllers
         {
             return View();
         }
-
+        //Prueba DestinoController
         // POST: Destino/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
