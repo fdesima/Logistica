@@ -6,32 +6,27 @@ using System.Web.Mvc;
 
 namespace Logistica.Controllers
 {
-    public class DestinoController : Controller
+    public class DestinatarioController : Controller
     {
-        // GET: Destino
-        public ActionResult Destino()
-        {
-            return View("Destino");
-        }
-        
+        // GET: Destinatario
         public ActionResult Index()
         {
             return View();
         }
-          
-        // GET: Destino/Details/5
+
+        // GET: Destinatario/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Destino/Create
+        // GET: Destinatario/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Destino/Create
+        // POST: Destinatario/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -47,13 +42,13 @@ namespace Logistica.Controllers
             }
         }
 
-        // GET: Destino/Edit/5
+        // GET: Destinatario/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Destino/Edit/5
+        // POST: Destinatario/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -69,13 +64,13 @@ namespace Logistica.Controllers
             }
         }
 
-        // GET: Destino/Delete/5
+        // GET: Destinatario/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Destino/Delete/5
+        // POST: Destinatario/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
