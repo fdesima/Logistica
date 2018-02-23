@@ -13,7 +13,7 @@ namespace Logistica.Controllers
         {
             return View("Destino");
         }
-        //PRUEBA!!
+
         public ActionResult Index()
         {
             return View();
